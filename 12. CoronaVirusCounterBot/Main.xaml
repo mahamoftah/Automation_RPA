@@ -1,0 +1,205 @@
+<Activity mc:Ignorable="sap sap2010" x:Class="Main" VisualBasic.Settings="{x:Null}" sap2010:Annotation.AnnotationText="UPTF00000088eyI8SGVscExpbms+a19fQmFja2luZ0ZpZWxkIjpudWxsLCI8SW5pdGlhbFRvb2x0aXA+a19fQmFja2luZ0ZpZWxkIjpudWxsLCI8VmVyc2lvbj5rX19CYWNraW5nRmllbGQiOjF9" sap:VirtualizedContainerService.HintSize="1410.4,2244.8" sap2010:WorkflowViewState.IdRef="ActivityBuilder_1" xmlns="http://schemas.microsoft.com/netfx/2009/xaml/activities" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:sap="http://schemas.microsoft.com/netfx/2009/xaml/activities/presentation" xmlns:sap2010="http://schemas.microsoft.com/netfx/2010/xaml/activities/presentation" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:sco="clr-namespace:System.Collections.ObjectModel;assembly=System.Private.CoreLib" xmlns:ui="http://schemas.uipath.com/workflow/activities" xmlns:uix="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <TextExpression.NamespacesForImplementation>
+    <sco:Collection x:TypeArguments="x:String">
+      <x:String>System.Activities</x:String>
+      <x:String>System.Activities.Statements</x:String>
+      <x:String>System.Activities.Expressions</x:String>
+      <x:String>System.Activities.Validation</x:String>
+      <x:String>System.Activities.XamlIntegration</x:String>
+      <x:String>Microsoft.VisualBasic</x:String>
+      <x:String>Microsoft.VisualBasic.Activities</x:String>
+      <x:String>System</x:String>
+      <x:String>System.Collections</x:String>
+      <x:String>System.Collections.Generic</x:String>
+      <x:String>System.Collections.ObjectModel</x:String>
+      <x:String>System.Data</x:String>
+      <x:String>System.Diagnostics</x:String>
+      <x:String>System.Drawing</x:String>
+      <x:String>System.IO</x:String>
+      <x:String>System.Linq</x:String>
+      <x:String>System.Net.Mail</x:String>
+      <x:String>System.Xml</x:String>
+      <x:String>System.Xml.Linq</x:String>
+      <x:String>UiPath.Core</x:String>
+      <x:String>UiPath.Core.Activities</x:String>
+      <x:String>System.Windows.Markup</x:String>
+      <x:String>GlobalVariablesNamespace</x:String>
+      <x:String>GlobalConstantsNamespace</x:String>
+      <x:String>System.Runtime.Serialization</x:String>
+      <x:String>UiPath.UIAutomationNext.Enums</x:String>
+      <x:String>UiPath.UIAutomationCore.Contracts</x:String>
+      <x:String>UiPath.UIAutomationNext.Models</x:String>
+      <x:String>UiPath.UIAutomationNext.Activities</x:String>
+      <x:String>UiPath.Shared.Activities</x:String>
+      <x:String>UiPath.Platform.ObjectLibrary</x:String>
+      <x:String>System.ComponentModel</x:String>
+      <x:String>System.Security</x:String>
+      <x:String>UiPath.UIAutomationNext.Activities.Models</x:String>
+      <x:String>System.Reflection</x:String>
+      <x:String>System.Linq.Expressions</x:String>
+    </sco:Collection>
+  </TextExpression.NamespacesForImplementation>
+  <TextExpression.ReferencesForImplementation>
+    <sco:Collection x:TypeArguments="AssemblyReference">
+      <AssemblyReference>Microsoft.VisualBasic</AssemblyReference>
+      <AssemblyReference>mscorlib</AssemblyReference>
+      <AssemblyReference>PresentationCore</AssemblyReference>
+      <AssemblyReference>PresentationFramework</AssemblyReference>
+      <AssemblyReference>System</AssemblyReference>
+      <AssemblyReference>System.Activities</AssemblyReference>
+      <AssemblyReference>System.ComponentModel.TypeConverter</AssemblyReference>
+      <AssemblyReference>System.Core</AssemblyReference>
+      <AssemblyReference>System.Data</AssemblyReference>
+      <AssemblyReference>System.Data.Common</AssemblyReference>
+      <AssemblyReference>System.Data.DataSetExtensions</AssemblyReference>
+      <AssemblyReference>System.Drawing</AssemblyReference>
+      <AssemblyReference>System.Drawing.Common</AssemblyReference>
+      <AssemblyReference>System.Drawing.Primitives</AssemblyReference>
+      <AssemblyReference>System.Linq</AssemblyReference>
+      <AssemblyReference>System.Net.Mail</AssemblyReference>
+      <AssemblyReference>System.ObjectModel</AssemblyReference>
+      <AssemblyReference>System.Private.CoreLib</AssemblyReference>
+      <AssemblyReference>System.Xaml</AssemblyReference>
+      <AssemblyReference>System.Xml</AssemblyReference>
+      <AssemblyReference>System.Xml.Linq</AssemblyReference>
+      <AssemblyReference>UiPath.System.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.UiAutomation.Activities</AssemblyReference>
+      <AssemblyReference>WindowsBase</AssemblyReference>
+      <AssemblyReference>UiPath.Studio.Constants</AssemblyReference>
+      <AssemblyReference>System.Private.ServiceModel</AssemblyReference>
+      <AssemblyReference>System.Runtime.Serialization.Formatters</AssemblyReference>
+      <AssemblyReference>System.Private.DataContractSerialization</AssemblyReference>
+      <AssemblyReference>System.Runtime.Serialization.Primitives</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationNext</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationCore</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationNext.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.OCR.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Testing.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Excel.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Mail.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Platform</AssemblyReference>
+      <AssemblyReference>System.ComponentModel.EventBasedAsync</AssemblyReference>
+      <AssemblyReference>System.ComponentModel</AssemblyReference>
+      <AssemblyReference>System.ComponentModel.Primitives</AssemblyReference>
+      <AssemblyReference>System.Security.Permissions</AssemblyReference>
+      <AssemblyReference>System.Runtime.InteropServices</AssemblyReference>
+      <AssemblyReference>System.Reflection.DispatchProxy</AssemblyReference>
+      <AssemblyReference>System.Reflection.TypeExtensions</AssemblyReference>
+      <AssemblyReference>System.Reflection.Metadata</AssemblyReference>
+      <AssemblyReference>UiPath.Excel.Activities.Design</AssemblyReference>
+      <AssemblyReference>System.Memory.Data</AssemblyReference>
+      <AssemblyReference>NPOI</AssemblyReference>
+      <AssemblyReference>System.Console</AssemblyReference>
+      <AssemblyReference>System.Configuration.ConfigurationManager</AssemblyReference>
+      <AssemblyReference>System.Memory</AssemblyReference>
+      <AssemblyReference>System.Private.Uri</AssemblyReference>
+      <AssemblyReference>System.Collections</AssemblyReference>
+      <AssemblyReference>System.Collections.NonGeneric</AssemblyReference>
+      <AssemblyReference>System.Linq.Expressions</AssemblyReference>
+    </sco:Collection>
+  </TextExpression.ReferencesForImplementation>
+  <Sequence DisplayName="Main Sequence" sap:VirtualizedContainerService.HintSize="512,2180" sap2010:WorkflowViewState.IdRef="Sequence_1">
+    <Sequence.Variables>
+      <Variable x:TypeArguments="x:String" Name="country" />
+      <Variable x:TypeArguments="x:String" Name="cases" />
+      <Variable x:TypeArguments="x:String" Name="deaths" />
+      <Variable x:TypeArguments="x:String" Name="recovers" />
+    </Sequence.Variables>
+    <sap:WorkflowViewStateService.ViewState>
+      <scg:Dictionary x:TypeArguments="x:String, x:Object">
+        <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+      </scg:Dictionary>
+    </sap:WorkflowViewStateService.ViewState>
+    <ui:InputDialog Options="{x:Null}" OptionsString="{x:Null}" DisplayName="Input Dialog - Enter Country " sap:VirtualizedContainerService.HintSize="449.6,281.6" sap2010:WorkflowViewState.IdRef="InputDialog_1" IsPassword="False" Label="Enter Country Name" Title="Enter Country Name">
+      <ui:InputDialog.Result>
+        <OutArgument x:TypeArguments="x:String">[country]</OutArgument>
+      </ui:InputDialog.Result>
+    </ui:InputDialog>
+    <uix:NApplicationCard AttachMode="ByInstance" DisplayName="Use Browser Chrome: Google" sap:VirtualizedContainerService.HintSize="449.6,1700.8" sap2010:WorkflowViewState.IdRef="NApplicationCard_1" InteractionMode="Simulate" ScopeGuid="6c89d740-e21a-497f-83fb-2fe27134aa02" Version="V2" WindowResize="Maximize">
+      <uix:NApplicationCard.Body>
+        <ActivityAction x:TypeArguments="x:Object">
+          <ActivityAction.Argument>
+            <DelegateInArgument x:TypeArguments="x:Object" Name="WSSessionData" />
+          </ActivityAction.Argument>
+          <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="416,1444" sap2010:WorkflowViewState.IdRef="Sequence_2">
+            <sap:WorkflowViewStateService.ViewState>
+              <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+              </scg:Dictionary>
+            </sap:WorkflowViewStateService.ViewState>
+            <ui:Activate DelayBefore="{x:Null}" DelayMS="{x:Null}" sap:VirtualizedContainerService.HintSize="353.6,126.4" sap2010:WorkflowViewState.IdRef="Activate_1">
+              <ui:Activate.Target>
+                <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" Selector="{x:Null}" Id="8c61dc47-e73c-4e1a-953d-6a0682fac1ef">
+                  <ui:Target.TimeoutMS>
+                    <InArgument x:TypeArguments="x:Int32" />
+                  </ui:Target.TimeoutMS>
+                  <ui:Target.WaitForReady>
+                    <InArgument x:TypeArguments="ui:WaitForReady" />
+                  </ui:Target.WaitForReady>
+                </ui:Target>
+              </ui:Activate.Target>
+            </ui:Activate>
+            <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="None" DisplayName="Type Into 'Search Engine'" EmptyFieldMode="SingleLine" sap:VirtualizedContainerService.HintSize="353.6,258.4" sap2010:WorkflowViewState.IdRef="NTypeInto_1" InteractionMode="Simulate" ScopeIdentifier="6c89d740-e21a-497f-83fb-2fe27134aa02" Text="[(country) + &quot; coronavirus worldometer&quot;]" Version="V3">
+              <uix:NTypeInto.Target>
+                <uix:TargetAnchorable BrowserURL="https://www.google.com/" CvElementArea="601, 444, 731, 63" CvType="InputBox" DesignTimeRectangle="664, 462, 554, 34" DesignTimeScaleFactor="1.25" ElementType="InputBox" FullSelectorArgument="&lt;webctrl id='APjFqb' tag='TEXTAREA' /&gt;" FuzzySelectorArgument="&lt;webctrl id='APjFqb' tag='TEXTAREA' type='' class='gLFyf' aaname='Search' /&gt;" Guid="fb482a9c-94cc-4381-a272-fb15255a4ad5" InformativeScreenshot="551b77858dda93546c7b3cbb8bc39399.png" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Google' /&gt;" SearchSteps="FuzzySelector, CV" Version="V3" Visibility="Interactive" />
+              </uix:NTypeInto.Target>
+            </uix:NTypeInto>
+            <uix:NClick ActivateBefore="True" ClickType="Single" CursorMotionType="Smooth" DisplayName="Click 'Google Search'" sap:VirtualizedContainerService.HintSize="353.6,197.6" sap2010:WorkflowViewState.IdRef="NClick_1" InteractionMode="Simulate" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="6c89d740-e21a-497f-83fb-2fe27134aa02" Timeout="3" Version="V3">
+              <uix:NClick.Target>
+                <uix:TargetAnchorable BrowserURL="https://www.google.com/" CvElementArea="791, 539, 162, 48" CvTextArea="813, 555, 117, 20" CvTextArgument="Google Search" CvType="Button" DesignTimeRectangle="793, 543, 159, 45" DesignTimeScaleFactor="1.25" ElementType="Button" FullSelectorArgument="&lt;webctrl aria-role='button' css-selector='body&amp;gt;div&amp;gt;div&amp;gt;form&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;center&amp;gt;input' tag='INPUT' /&gt;" FuzzySelectorArgument="&lt;webctrl aria-role='button' type='submit' tag='INPUT' class='gNO89b' aaname='Google Search' check:text='Google Search' /&gt;" Guid="5076b955-5bb4-481c-a97f-85a4d6764d23" InformativeScreenshot="69ffe28f1440b0d7e6807f4b3e2c21fb.png" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Google' /&gt;" SearchSteps="FuzzySelector, CV" Version="V3" Visibility="Interactive" />
+              </uix:NClick.Target>
+            </uix:NClick>
+            <uix:NClick ActivateBefore="True" ClickType="Single" CursorMotionType="Smooth" DisplayName="Click 'COVID Website'" sap:VirtualizedContainerService.HintSize="353.6,197.6" sap2010:WorkflowViewState.IdRef="NClick_2" InteractionMode="Simulate" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="6c89d740-e21a-497f-83fb-2fe27134aa02" Version="V3">
+              <uix:NClick.Target>
+                <uix:TargetAnchorable BrowserURL="https://www.google.com/search?q=egypt+coronavirus+worldometer&amp;oq=&amp;gs_lcrp=EgZjaHJvbWUqCQgFECMYJxjqAjIJCAAQIxgnGOoCMgkIARAjGCcY6gIyCQgCECMYJxjqAjIJCAMQIxgnGOoCMgkIBBAjGCcY6gIyCQgFECMYJxjqAjIJCAYQIxgnGOoCMgkIBxAjGCcY6gLSAQ0zNzc3NTU2NTBqMGo3qAIIsAIB&amp;sourceid=chrome&amp;ie=UTF-8" CvTextArea="123, 486, 356, 17" CvTextArgument="https://www.worldometers.info &gt; coronavirus &gt; country" CvType="Text" DesignTimeRectangle="125, 484, 353, 22" DesignTimeScaleFactor="1.25" FullSelectorArgument="&lt;webctrl tag='CITE' /&gt;" FuzzySelectorArgument="&lt;webctrl tag='CITE' type='' class='qLRx3b tjvcx GvPZzd cHaqb' aaname='https://www.worldometers.info' check:innerText='https://www.worldometers.info › coronavirus › country' /&gt;" Guid="c956d7f5-eea1-4bd5-b749-fa5f28ace7f4" InformativeScreenshot="be5fd146d9ebcc18ff60c9102a4aa7c8.png" ScopeSelectorArgument="&lt;html app='chrome.exe' title='egypt coronavirus worldometer - Google Search' /&gt;" SearchSteps="FuzzySelector, CV" Version="V3" Visibility="Interactive">
+                  <uix:TargetAnchorable.Anchors>
+                    <scg:List x:TypeArguments="uix:ITarget" Capacity="4">
+                      <uix:Target CvTextArea="123, 461, 102, 16" CvTextArgument="Worldometer" CvType="Text" DesignTimeRectangle="125, 459, 353, 25" ElementType="Text" FullSelectorArgument="&lt;webctrl class='VuuXrf' parentid='rso' tag='SPAN' /&gt;" FuzzySelectorArgument="&lt;webctrl class='VuuXrf' parentid='rso' tag='SPAN' type='' aaname='Worldometer' check:innerText='Worldometer' /&gt;" SearchSteps="FuzzySelector, CV" />
+                    </scg:List>
+                  </uix:TargetAnchorable.Anchors>
+                </uix:TargetAnchorable>
+              </uix:NClick.Target>
+            </uix:NClick>
+            <uix:NGetText DisplayName="Get Text - Coronavirus Cases" sap:VirtualizedContainerService.HintSize="353.6,197.6" sap2010:WorkflowViewState.IdRef="NGetText_1" ScopeIdentifier="6c89d740-e21a-497f-83fb-2fe27134aa02" TextString="[cases]" Timeout="5" Version="V3">
+              <uix:NGetText.Target>
+                <uix:TargetAnchorable BrowserURL="https://www.worldometers.info/coronavirus/country/egypt/" CvTextArea="601, 538, 253, 63" CvType="AnyWordGroup" DesignTimeRectangle="604, 520, 251, 92" DesignTimeScaleFactor="1.25" ElementType="Text" FullSelectorArgument="&lt;webctrl parentid='maincounter-wrap' tag='SPAN' /&gt;" FuzzySelectorArgument="&lt;webctrl parentid='maincounter-wrap' tag='SPAN' type='' class='' /&gt;" Guid="9cfb1c54-e096-4e1a-9bf0-aec95d37dffd" InformativeScreenshot="12792b9e0d4a99d6a32686341478d686.png" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Egypt COVID - Coronavirus Statistics - Worldometer' /&gt;" SearchSteps="FuzzySelector, CV" Version="V3" Visibility="Interactive">
+                  <uix:TargetAnchorable.Anchors>
+                    <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
+                      <uix:Target CvTextArea="543, 463, 372, 42" CvTextArgument="Coronavirus Cases:" CvType="Text" DesignTimeRectangle="290, 453, 879, 65" ElementType="Text" FullSelectorArgument="&lt;webctrl parentid='maincounter-wrap' tag='H1' /&gt;" FuzzySelectorArgument="&lt;webctrl parentid='maincounter-wrap' tag='H1' type='' class='' aaname='Coronavirus Cases:' check:innerText='Coronavirus Cases:' /&gt;" SearchSteps="FuzzySelector, CV" />
+                    </scg:List>
+                  </uix:TargetAnchorable.Anchors>
+                </uix:TargetAnchorable>
+              </uix:NGetText.Target>
+            </uix:NGetText>
+            <uix:NGetText DisplayName="Get Text - Coronavirus Deaths" sap:VirtualizedContainerService.HintSize="353.6,197.6" sap2010:WorkflowViewState.IdRef="NGetText_3" ScopeIdentifier="6c89d740-e21a-497f-83fb-2fe27134aa02" TextString="[deaths]" Timeout="5" Version="V3">
+              <uix:NGetText.Target>
+                <uix:TargetAnchorable BrowserURL="https://www.worldometers.info/coronavirus/country/egypt/" CvTextArea="621, 743, 213, 63" CvType="AnyWordGroup" DesignTimeRectangle="623, 725, 212, 92" DesignTimeScaleFactor="1.25" ElementType="Text" FullSelectorArgument="&lt;webctrl aaname='24,613' parentid='maincounter-wrap' tag='SPAN' /&gt;" FuzzySelectorArgument="&lt;webctrl parentid='maincounter-wrap' tag='SPAN' type='' class='' /&gt;" Guid="b8f3ef30-4efd-4608-bdfb-5b5435ac2bb1" InformativeScreenshot="d3125acde2692e7d9d0c63780254b79e.png" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Egypt COVID - Coronavirus Statistics - Worldometer' /&gt;" SearchSteps="FuzzySelector, CV" Version="V3" Visibility="Interactive">
+                  <uix:TargetAnchorable.Anchors>
+                    <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
+                      <uix:Target CvTextArea="655, 666, 146, 45" CvTextArgument="Deaths:" CvType="Text" DesignTimeRectangle="290, 658, 879, 65" ElementType="Text" FullSelectorArgument="&lt;webctrl idx='2' parentid='maincounter-wrap' tag='H1' /&gt;" FuzzySelectorArgument="&lt;webctrl type='' parentid='maincounter-wrap' tag='H1' class='' aaname='Deaths:' check:innerText='Deaths:' /&gt;" SearchSteps="FuzzySelector, CV" />
+                    </scg:List>
+                  </uix:TargetAnchorable.Anchors>
+                </uix:TargetAnchorable>
+              </uix:NGetText.Target>
+            </uix:NGetText>
+            <uix:NGetText DisplayName="Get Text Coronavirus Recovered" sap:VirtualizedContainerService.HintSize="353.6,182.4" sap2010:WorkflowViewState.IdRef="NGetText_4" ScopeIdentifier="6c89d740-e21a-497f-83fb-2fe27134aa02" TextString="[recovers]" Timeout="5" Version="V3">
+              <uix:NGetText.Target>
+                <uix:TargetAnchorable BrowserURL="https://www.worldometers.info/coronavirus/country/egypt/" CvTextArea="600, 948, 256, 65" CvType="AnyWordGroup" DesignTimeRectangle="604, 930, 251, 92" DesignTimeScaleFactor="1.25" ElementType="Text" FullSelectorArgument="&lt;webctrl aaname='442,182' parentid='maincounter-wrap' tag='SPAN' /&gt;" FuzzySelectorArgument="&lt;webctrl parentid='maincounter-wrap' tag='SPAN' type='' class='' /&gt;" Guid="8fd5235a-bb40-43ca-8d44-6d04395e0dc1" InformativeScreenshot="989e9fda478eccb3abc924865b7d6f0b.png" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Egypt COVID - Coronavirus Statistics - Worldometer' /&gt;" SearchSteps="FuzzySelector, CV" Version="V3" Visibility="Interactive">
+                  <uix:TargetAnchorable.Anchors>
+                    <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
+                      <uix:Target CvTextArea="623, 871, 212, 45" CvTextArgument="Recovered:" CvType="Text" DesignTimeRectangle="290, 863, 879, 65" ElementType="Text" FullSelectorArgument="&lt;webctrl idx='3' parentid='maincounter-wrap' tag='H1' /&gt;" FuzzySelectorArgument="&lt;webctrl type='' parentid='maincounter-wrap' tag='H1' class='' aaname='Recovered:' check:innerText='Recovered:' /&gt;" SearchSteps="FuzzySelector, CV" />
+                    </scg:List>
+                  </uix:TargetAnchorable.Anchors>
+                </uix:TargetAnchorable>
+              </uix:NGetText.Target>
+            </uix:NGetText>
+          </Sequence>
+        </ActivityAction>
+      </uix:NApplicationCard.Body>
+      <uix:NApplicationCard.TargetApp>
+        <uix:TargetApp Area="-9, -9, 1938, 1038" BrowserType="Chrome" IconBase64="iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAYAAABXAvmHAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAAEnQAABJ0Ad5mH3gAABFBSURBVGhDvZcJeFNlusfTNm2apE3SdEm6pEm6J026pPu+UVpaoAXZikArKKIoqCOPKEtBRRHFFihUy+4yOoqC4ox6AesdwbmoiN4Zr1wvWlQWHQcK1RnR1vO/7/edc9IUcZvx3vd5/s//fd/vpOf3fvnOCSh+jQhVBhimmY1td6VYOra7E3e/VZzRd7wsq//z6lx8Xp2H4+XZ/W8Wufp2e1J770q2dNRFGprjgoNsCj9/fYDWOCswyr4n1u44VpWXOzCpKHtgXHba+0WJlt3RupCZAX5+euk2v24w6GstpoW7s1J6ZVDRffIquRb1WVUO15/LPJjncAshptTv9BYnrAkOOONjUOK0oTIjBXV5GagvcKOxxIWWCs/XDnN4pypQaZJu/a8FA19ki2n/n7LMc59X5QgcrNIz0hk4iblvj+mxHLcQaU5EUGQiImMT4LTEIkqvg0YViPCQENijImmYOJS7nSh1OTCxLBN3t43G3IbCC0atpknC+OdikS2awOWjwYDYjg7D8V6FR5B3+gzlZyqyeX2qwoNbHWlQR9oRHGFDmMmK5FgTQjRB0KmDCT4UUVqSToeQ4GDEGA2oyclAA30TE8s9WNFaiUl5qUJ4YOBSQvETiX5msPN6IDf9KNtNLgZ4icug3CvJKz2S2DU52JTlQrTNgWhrChITUpEaHw9DsAp6jRphWg0MajUi1BpEaEPoG9FDT0PEG8NRle2iY5WO0gwHWiuy4NCpoQ8MuEpC++mYYopo/aA0s98LSFAc0AvqCyuJdvs0U3m2cLo8S3g6NwOGONp9ewairGlIs1gRozcQJMEQdCjBhmk0MFPPoBLBIzVa6AKDkGaNQ7UnE0XpyZhemYdCcxgyQtXfqhSKWgnxh+NWq7ldhpXB5N1lcKJniU5rbJ3DU+90RbbkHtQlu6CIcUNndSM52gydKoiDa1VKxBjCYDNFQa1UIiHGhPhII30rGkQb9TBqtdCHaAg+BaVuBxoLs7Ag3475LgPGF+ftkTAvH7+JN7f77q4MI+6slJcTJPmpMgmY5dRj4mukd4qzoIx1wS82A9Gx8dCrAhBKx8SgVtFRCcOUUYW4/coxCFMH0XOgQQNBxpsjERUWhswEKwrSU2GJMuH6qU2YTG+vXJMWFZEaHNn7mKDTBEdLuCNjiim89TSH8jkOUi2CSoCSi9BZbBAxL80UZF9D5zcoOhXKqFToQukBJbAApQrhWjVG5WZjclU+5oytRGqcGSplACwRBlRnOTGpOh+1+S5Mqi3FtZPHYtXNc7HsuhlwGrQwBymQplNC5+83T0IeDvbAvl/kPscBCZpBMFDfXRWhCZaDin5SzvkQWThJzlRlTRTU5iSExGdArzOAfrgwfdZstEy6gnY7E9fPnY+519yAq6+5CqPzMunohMGoC8WiGeMwZ1YbXtx/CH2fnMLvetZiV+etuHpMJWKVCiSq/JAQonpJwh6OwwXOvhG7yIBYLgH5Os9LMgQZ1qtSpkzu0TFJCDalICQ6GWGGcASrdZjQ0oqbr56OBjper+7bj8X37cAzvUew+c4F6F7YjCUt1eicPwXd992LLTufwl8/eAOvb2vH3nVLcOGvH2Hd7fPQnBSL0gjDeQlbjFsspnbvLjL5gI8EZHA+YkNc0vtUcn10CpTmVARG0fkPC4feEAlFUBjqyvJwa0stepZcjT3bN+CR1Xfg5btnY+/y6fjDypl4+Z45eG7xRLz35EoM/Oez2LX2NuRaYnD79FE49trv0bXketj8FRcldIUiKEJju//myuHdJKhPSXwAL9Bwzta4yyp2CyfrS3Bhazcuvv0mBk+fAovQBDcC4lzwp1eoxu6Cu3w8jFmVCIpKRlNtJboWTsTLBPzqPa0EfhX2rmjFc8un4fllV+KlBxfi2Itd2DFnAqaFhyJNpYCdjk+JyYD86DB4TMbhb8A2z7OjfEcz3m7I8+7eSEAJuCRDkpxn4sykeg59uUjMr4afJRP+tiwEp5chu7kN2gR6M0U7oAi1IyI6DqWeLNw2ow7PLp1Ow7Tg5TtbsIcGOLJmOo7Pt2BnkRIPFmow1RxMD7EKLnrNOkL0SNIbjnH4oHCNzfPbicghXXf3aC/YJ7SrI6FFfSKryCX0d96H7wYGJFwxTvcLeOGdb7C59yLyGubAPy4dCoMVN294Aht/f4jyGPjr4jHlhsVoXbQSCv9wGJLzMWPmNXjovtvQs/wa7Hp8Ix5Zcg1ealDgxZlGbJwahTm2EBTrQpBuDIWT3mYWbaj4W2Asj2/LerxJyH68GZ7HJ+APkwskQLfAvViWm0Oz/GPy81s2Schi7D36Debt+Ap57eeRv+IC94QJXQiypCPQSr+m065FxaTZCDLEQqE24c7NT2B1zzMIMroR46xHeVoOJpSUYWrDWHQ11uGm1ttQ3Tgbs8fVoMVjQy19Ax6CTzaEIoXeVgaVSnyNpq2qOpr1WJPA4Nkgs9bUi7AS9MeFDJpcVpEb5zpXS9hsx7/DtdtF8NwV55FHymU5yb3gKB2XVKjYtxCeAIXGiCBTAgyOEmTWtcHfmAu9rQohseUosNhwVW0NbpxxFRaUFmPyFfPgmboa+ZNXoGjK7XCleZAYomJHh6SD0t/Pxo9P5qPjhUwaIPuxZmSRmHddWyJ8XJgu0E5zYJafkOqTzaMF+dgw+HEdA15gppzlw2K1IbsF2ng3UsrGQx1Db6XwGKjZ74K1GGG2GoRZKxAQ5sCClffjteMf4qW//Dfe+bgP89s3wVE9F8VTlqDkylXIHTUbVvoFT6RjNLcuCgatv0GhyzE1ZT3ahEtVsnU83it3CycKGDgbwgXmJwqcwpcv7OHwLOZu+5JA+31E4ATt8em5bnybfguSoYlOQ2C4jQaIo7dQKtU50FloCHs1PdAZuHnFOrz32WfYd/hNnDhzGrMXbYB79E0ombIChZOWwtN4E5LikpCiD8Kne1Iwa4y+TREzPb0j85HxENXEnQ2Q8cg4YfWNZV7ovoJ09BWm4+SE0RI68DydeQZ6eYlDyLJP3oaACCv9RyYBgez/BGYnNDGZNEQudAmjEGgugatsGv7S9zHOnP0b9uz/EwomLEbppOWomHYP0qtmw1k1F+npxXhyeQwGX0/D2gVRnYrExUW9GTvHw71znOA7hHvnWIH1D9dmgcNLOvvgvRI+0Lj2ArKX9Q+LQEfUlyhuzGoE0Y9akDkFanK12Y0QWzmpEjp7Fb2dcnD9Hffj8Dt/RtXUJchtpqNzxXJUtqxGWsFUWLMbsObGRAweShUGD6XhmXvj9igcD9T0Zewch8vJvWOs0LKqRujLcwgfkfrynfj6yBsc/tiZIWQRFBODk/Mf1zkkztwNbYwT2jg3tOZMaMOToY8tRqi9BiFWephJpvR6uEbdhMppqwh+FYqvWIrCxjbs21pI8MkEnywMHUrBh7vsfQrXjkYhYwcBk9xcY3nO+ixnveebsvkAH9EA8sP7yn99i0wC4loqOYmBiu7b8+33w7nwPUQUzodKFweV2kgeDW2Ui45UCWyuPLiyc+GomE27vxSJRS2YOjEPn7zgxODBJGHwYDL3oUNJ+OJFe7/CvX0sXNsJlvyHVLO+Hh/lpgkf5qQKnJ6i+5WvkUHgsmTYEb3L5HxYKU+e04u4hrXIrmiBO7sAWoMFjbUe3HW9Bw01icKqWzLxak8KGOzgwQRh6GAihg4m8Zrn5Ir07Q2CiyBHqhGubSTK07c1CE5S55xCfJiT5h1g04F/eOF85f6R+tI1ucf+lhwMdBhWVoKoQ3T+yQdfs9M3QE65wtFV1+/cNkZIZ8AkljNP39rAa9Z3bh0j5HfX490S+hpPn+Q32vP2RbiXnINryVnuDIS7b36Jy9e6WM+nf4COI4/BCxyKwQ6+ZqNB7FTbpQEopx53Mec9RdKayj4GyeQgUC84uSzWZ1q8sAT/eOswv9cp+gFjQKJEuMvr0rXvX/v+6SH+N4Xzf+JQQwTHAIcVL7DecD9eYDr+VGyfIm6+Z7dzSwPtsgjr3DJmRO7YUi8w8T5d99auHn4zFm1bLiCdANIJSvRfrtEPnJf+GvDdhysJzkqgI0WwGPyjhaCZKJfq/etNvQrzNGeHCCfC8mGkmiltcx0NwLxeYJrW0STdDth95Bs47zgLJ4FwUc6geO8nJF+3+8hF6a8BQ28UEWAc7TYDZB7HoBksr0WXRP21N+g7Ffqi2DYGyUE314OJD7NZltgTJdaHT78r3RJo3TwAB4HIYlCOO/7mBfVdG3nNWfrsBemv0PH5/GkZVFIsAceQmMdhiPdYTflrosaXBjcpAtRKA4frqUdqz2g+RBrPaShyX7Eeu6bmiVYMfPMVv/HJc99h1Jp+pBE0A0+7XfTh/Ky3x66Re6Pu78dJeo5YDFz8ina/gMGKoP8ezXPmQ77ORf+M4OvRgs0UYOP/nLb8Jq83radOAq1D6sOjCZ7qh+We2Oe11Fv1eje/OQs2xCzaTQb3PUkD+GomXcs+I8f5D+jscygGZxa4/hjNej61mYaIpgHF/pEtEUc5PAtDTfzCVAKTlfJQrTBcjx7R52sPib0Nbz0qIYjx7FsXUX3fOaQQZCpJdlkze87jWZ8zz+KZd7fiXC87Hl5gH5kI2rcWNUSaWRfcKuErFP7BSkNSR1V/MsExcUAJknmKJLbG3LfHvgl2BHzj/VND2PfeN1i/7+/YsP/vNNjXI3acxcDFL7HqUDeeft5BUFFsl8lNUm4iSJbLiqI6CoOvRgpMbM17fOQwjk1ol6FSugm2e5SQ0l1LOYl6SVKdtIlcqpOl9YrHrhSeOfayhPbT8R+n3kHFo1cKFVvKCZbAZL0aQYAkbx3JJcGTwtkA2Hpb6HYJezjYt5DwQOU5GSx5E4k5z0eNqBm0t2ZrUl356AysOtjNAT8d+EzCBc9Zb/0bjyBnW7P4WfrciX30VvGCRZAz+eS9LB+xxhVv8h+5+3KENSa00w7zGyRuqhG84NxliXXiRrbOvxFvzvpJG0Wxnuzium+vWlj0Ww/BGOk4MDAjAxUhe8OknMk40mlteVtwu4R7+bAsLjgqQ8iS4ZM21kjyXb+09u3J19cgoauaw7Pc012JE/9GD6MExQF7GaSReqIP9hoE3usNo5pEfvwJ3UcS5g+H0hhss99f3p/YVQNZ7Ka+zmBErxJkMOaiqviarEvrxK5qdDyVRnBhBMvADMK3vXqqmQxSTy8w//YVHe8xfbFX12/7oaNzaYTmm9vsG6oEJvmmoijfQM5EdQL58DXiGqu9fXKW+36u9OESCWoYTsz1ErAeg14PFSjn3lQS2Czh/bwwjklYwW5+OdnXV3ohvf31Vd+7TpaNrmefYXrqWfqnMgOTAXt1BC66CBtC0KFsKFGUL5ulWiFh/bIwjLG1czCSCCE6kwxmW0f5ejZUFZd3XaplZ5q2NZcD+Wqol8GO7A2+ohV4/5UQLG8N/PGH9qdC44pojl9d2k+gXhD7uipY11UQfIXAcrlnp2tYn4nV7DO+9YmX6KEkOAY2UlqShvpafHtALQySvnhe0z+rTtkmYfxroQwLtsUtL+jjgJ0E3ik51RyScmtnOUlc88q7Xi7cstMlwnFQDRgkBxd7oh9QM8ebPcFHbSa/n/fA/pLQ11vbZbB4grJ1VnDQ+A6Wiy7n1g5xjalkYyHtPr1dGKgIKynYCz14QCV88VxQ/7JZyn/uvP/cYN9GeEvqdgbKIH1lWVvGB7B0lPE1ynl/8+/ov4EESMAMWtR+lTf/4rnAc8tmBbQbtH4G6Tb/98EGCckzt0XfmnOUgXPgB8u9EnvlKO4qZPDDYuD7gwQS9j8Y2HvDFQEL/1/BLxdsGPawG5oTOiKvc/fGLM3vY0PEPVAqPPl0LO2wsv+Dx5V9u1Yqdz9wXUDHzDq/1l8HWqH4XzR+KuJxqrCfAAAAAElFTkSuQmCC" InformativeScreenshot="b48f4367b671cee7316f6b9690734c1c.jpg" Selector="&lt;html app='chrome.exe' title='Google' /&gt;" Title="Local Disk (D:)" Url="https://www.google.com/" />
+      </uix:NApplicationCard.TargetApp>
+    </uix:NApplicationCard>
+    <ui:MessageBox Caption="{x:Null}" ChosenButton="{x:Null}" AutoCloseAfter="00:00:00" DisplayName="Message Box - Print Coronavirus Status" sap:VirtualizedContainerService.HintSize="449.6,108.8" sap2010:WorkflowViewState.IdRef="MessageBox_1" Text="[country + &quot;Coronavirus Status:-&quot; + Environment.NewLine + &quot;    - Coronavirus Cases: &quot; + cases + Environment.NewLine + &quot;    - Deaths: &quot; + deaths + Environment.NewLine + &quot;    - Recovered: &quot; + recovers]" />
+  </Sequence>
+</Activity>

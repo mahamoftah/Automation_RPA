@@ -1,0 +1,38 @@
+{
+  "Workflows": [
+    {
+      "Path": null,
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [],
+      "ArgumentsSectionElementsOrder": null,
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "Main.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "recovers&Sequence_1",
+        "deaths&Sequence_1",
+        "cases&Sequence_1",
+        "country&Sequence_1"
+      ],
+      "ArgumentsSectionElementsOrder": [],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "D:/ITI - AI/29. RPA/Lab2/CoronavirusStatusBot.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "country&Sequence_1",
+        "cases&Sequence_1",
+        "deaths&Sequence_1",
+        "recovers&Sequence_1"
+      ],
+      "ArgumentsSectionElementsOrder": [],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    }
+  ]
+}
