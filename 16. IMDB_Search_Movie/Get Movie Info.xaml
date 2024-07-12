@@ -1,0 +1,164 @@
+<Activity mc:Ignorable="sap sap2010" x:Class="Get_Movie_Info" xmlns="http://schemas.microsoft.com/netfx/2009/xaml/activities" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:sap="http://schemas.microsoft.com/netfx/2009/xaml/activities/presentation" xmlns:sap2010="http://schemas.microsoft.com/netfx/2010/xaml/activities/presentation" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:sco="clr-namespace:System.Collections.ObjectModel;assembly=System.Private.CoreLib" xmlns:ui="http://schemas.uipath.com/workflow/activities" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <x:Members>
+    <x:Property Name="out_movieTitle" Type="OutArgument(x:String)" />
+    <x:Property Name="out_movieReleaseYear" Type="OutArgument(x:String)" />
+    <x:Property Name="out_movieRating" Type="OutArgument(x:String)" />
+    <x:Property Name="out_movieDuration" Type="OutArgument(x:String)" />
+  </x:Members>
+  <VisualBasic.Settings>
+    <x:Null />
+  </VisualBasic.Settings>
+  <sap:VirtualizedContainerService.HintSize>1104,701.6</sap:VirtualizedContainerService.HintSize>
+  <sap2010:WorkflowViewState.IdRef>Get_Movie_Info_1</sap2010:WorkflowViewState.IdRef>
+  <TextExpression.NamespacesForImplementation>
+    <sco:Collection x:TypeArguments="x:String">
+      <x:String>System.Activities</x:String>
+      <x:String>System.Activities.Statements</x:String>
+      <x:String>System.Activities.Expressions</x:String>
+      <x:String>System.Activities.Validation</x:String>
+      <x:String>System.Activities.XamlIntegration</x:String>
+      <x:String>Microsoft.VisualBasic</x:String>
+      <x:String>Microsoft.VisualBasic.Activities</x:String>
+      <x:String>System</x:String>
+      <x:String>System.Collections</x:String>
+      <x:String>System.Collections.Generic</x:String>
+      <x:String>System.Collections.ObjectModel</x:String>
+      <x:String>System.Data</x:String>
+      <x:String>System.Diagnostics</x:String>
+      <x:String>System.Drawing</x:String>
+      <x:String>System.IO</x:String>
+      <x:String>System.Linq</x:String>
+      <x:String>System.Net.Mail</x:String>
+      <x:String>System.Xml</x:String>
+      <x:String>System.Xml.Linq</x:String>
+      <x:String>UiPath.Core</x:String>
+      <x:String>UiPath.Core.Activities</x:String>
+      <x:String>System.Windows.Markup</x:String>
+      <x:String>GlobalVariablesNamespace</x:String>
+      <x:String>GlobalConstantsNamespace</x:String>
+      <x:String>UiPath.UIAutomationCore.Contracts</x:String>
+      <x:String>UiPath.Platform.SyncObjects</x:String>
+      <x:String>System.Reflection</x:String>
+      <x:String>System.Linq.Expressions</x:String>
+      <x:String>System.Runtime.Serialization</x:String>
+    </sco:Collection>
+  </TextExpression.NamespacesForImplementation>
+  <TextExpression.ReferencesForImplementation>
+    <sco:Collection x:TypeArguments="AssemblyReference">
+      <AssemblyReference>Microsoft.VisualBasic</AssemblyReference>
+      <AssemblyReference>mscorlib</AssemblyReference>
+      <AssemblyReference>System</AssemblyReference>
+      <AssemblyReference>System.Activities</AssemblyReference>
+      <AssemblyReference>System.ComponentModel.TypeConverter</AssemblyReference>
+      <AssemblyReference>System.Core</AssemblyReference>
+      <AssemblyReference>System.Data</AssemblyReference>
+      <AssemblyReference>System.Data.Common</AssemblyReference>
+      <AssemblyReference>System.Data.DataSetExtensions</AssemblyReference>
+      <AssemblyReference>System.Drawing</AssemblyReference>
+      <AssemblyReference>System.Drawing.Common</AssemblyReference>
+      <AssemblyReference>System.Drawing.Primitives</AssemblyReference>
+      <AssemblyReference>System.Linq</AssemblyReference>
+      <AssemblyReference>System.Net.Mail</AssemblyReference>
+      <AssemblyReference>System.ObjectModel</AssemblyReference>
+      <AssemblyReference>System.Private.CoreLib</AssemblyReference>
+      <AssemblyReference>System.Xaml</AssemblyReference>
+      <AssemblyReference>System.Xml</AssemblyReference>
+      <AssemblyReference>System.Xml.Linq</AssemblyReference>
+      <AssemblyReference>UiPath.System.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.UiAutomation.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Studio.Constants</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationCore</AssemblyReference>
+      <AssemblyReference>UiPath.Platform</AssemblyReference>
+      <AssemblyReference>System.Reflection.DispatchProxy</AssemblyReference>
+      <AssemblyReference>System.Reflection.TypeExtensions</AssemblyReference>
+      <AssemblyReference>System.Reflection.Metadata</AssemblyReference>
+      <AssemblyReference>UiPath.Excel.Activities.Design</AssemblyReference>
+      <AssemblyReference>NPOI</AssemblyReference>
+      <AssemblyReference>System.Memory.Data</AssemblyReference>
+      <AssemblyReference>System.Console</AssemblyReference>
+      <AssemblyReference>System.Security.Permissions</AssemblyReference>
+      <AssemblyReference>System.Configuration.ConfigurationManager</AssemblyReference>
+      <AssemblyReference>System.ComponentModel</AssemblyReference>
+      <AssemblyReference>System.Memory</AssemblyReference>
+      <AssemblyReference>System.Private.Uri</AssemblyReference>
+      <AssemblyReference>System.Private.ServiceModel</AssemblyReference>
+      <AssemblyReference>System.Linq.Async</AssemblyReference>
+      <AssemblyReference>System.Collections</AssemblyReference>
+      <AssemblyReference>System.Collections.NonGeneric</AssemblyReference>
+      <AssemblyReference>System.Linq.Expressions</AssemblyReference>
+      <AssemblyReference>System.Runtime.Serialization.Formatters</AssemblyReference>
+      <AssemblyReference>System.Private.DataContractSerialization</AssemblyReference>
+      <AssemblyReference>System.Runtime.Serialization.Primitives</AssemblyReference>
+    </sco:Collection>
+  </TextExpression.ReferencesForImplementation>
+  <Sequence DisplayName="Get_Movie_Info" sap:VirtualizedContainerService.HintSize="416,636.8" sap2010:WorkflowViewState.IdRef="Sequence_1">
+    <Sequence.Variables>
+      <Variable x:TypeArguments="x:String" Name="test" />
+    </Sequence.Variables>
+    <sap:WorkflowViewStateService.ViewState>
+      <scg:Dictionary x:TypeArguments="x:String, x:Object">
+        <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+      </scg:Dictionary>
+    </sap:WorkflowViewStateService.ViewState>
+    <ui:GetValue ContinueOnError="{x:Null}" DisplayName="Get Text - Movie Title" sap:VirtualizedContainerService.HintSize="353.6,139.2" sap2010:WorkflowViewState.IdRef="GetValue_1">
+      <ui:GetValue.Target>
+        <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" Id="44a00b82-12e8-43c5-8303-c274fcc23e37" InformativeScreenshot="ac5b2e03420a27928b1242ac73cf00b6" Selector="&lt;html app='chrome.exe' title='*- IMDb' /&gt;&lt;webctrl class='hero__primary-text' parentid='__next' tag='SPAN' /&gt;">
+          <ui:Target.TimeoutMS>
+            <InArgument x:TypeArguments="x:Int32" />
+          </ui:Target.TimeoutMS>
+          <ui:Target.WaitForReady>
+            <InArgument x:TypeArguments="ui:WaitForReady" />
+          </ui:Target.WaitForReady>
+        </ui:Target>
+      </ui:GetValue.Target>
+      <ui:GetValue.Value>
+        <OutArgument x:TypeArguments="x:String">[out_movieTitle]</OutArgument>
+      </ui:GetValue.Value>
+    </ui:GetValue>
+    <ui:GetValue ContinueOnError="{x:Null}" DisplayName="Get Text - Release Year" sap:VirtualizedContainerService.HintSize="353.6,139.2" sap2010:WorkflowViewState.IdRef="GetValue_2">
+      <ui:GetValue.Target>
+        <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" Id="f60aedb1-5ba3-48da-a935-2faf4fb7d71d" InformativeScreenshot="00ff7e0a871ea5e38d5eeabdfad6a5d3" Selector="&lt;html app='chrome.exe' title='* - IMDb' /&gt;&lt;webctrl aria-role='button' parentid='__next' tag='A' idx='6' /&gt;">
+          <ui:Target.TimeoutMS>
+            <InArgument x:TypeArguments="x:Int32" />
+          </ui:Target.TimeoutMS>
+          <ui:Target.WaitForReady>
+            <InArgument x:TypeArguments="ui:WaitForReady" />
+          </ui:Target.WaitForReady>
+        </ui:Target>
+      </ui:GetValue.Target>
+      <ui:GetValue.Value>
+        <OutArgument x:TypeArguments="x:String">[out_movieReleaseYear]</OutArgument>
+      </ui:GetValue.Value>
+    </ui:GetValue>
+    <ui:GetValue ContinueOnError="{x:Null}" DisplayName="Get Text - Rating" sap:VirtualizedContainerService.HintSize="353.6,139.2" sap2010:WorkflowViewState.IdRef="GetValue_3">
+      <ui:GetValue.Target>
+        <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" Id="3c0563a4-4883-4537-932e-85f9494ce588" InformativeScreenshot="11d1c627e34b984fe9ce82fb8df9cb71" Selector="&lt;html app='chrome.exe' title='* - IMDb' /&gt;&lt;webctrl aria-role='presentation' css-selector='body&amp;gt;div&amp;gt;main&amp;gt;div&amp;gt;section&amp;gt;section&amp;gt;div&amp;gt;section&amp;gt;section&amp;gt;div&amp;gt;div&amp;gt;ul&amp;gt;li' tag='LI' idx='2' /&gt;">
+          <ui:Target.TimeoutMS>
+            <InArgument x:TypeArguments="x:Int32" />
+          </ui:Target.TimeoutMS>
+          <ui:Target.WaitForReady>
+            <InArgument x:TypeArguments="ui:WaitForReady" />
+          </ui:Target.WaitForReady>
+        </ui:Target>
+      </ui:GetValue.Target>
+      <ui:GetValue.Value>
+        <OutArgument x:TypeArguments="x:String">[out_movieRating]</OutArgument>
+      </ui:GetValue.Value>
+    </ui:GetValue>
+    <ui:GetValue ContinueOnError="{x:Null}" DisplayName="Get Text - Duration" sap:VirtualizedContainerService.HintSize="353.6,130.4" sap2010:WorkflowViewState.IdRef="GetValue_4">
+      <ui:GetValue.Target>
+        <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" Id="d6f79ebb-1219-4daa-82e8-00ea65cc6b24" InformativeScreenshot="a56ad9f198630ecacb9772e9ca7bfd90" Selector="&lt;html app='chrome.exe' title='* - IMDb' /&gt;&lt;webctrl aria-role='presentation' isleaf='1' tag='LI' /&gt;">
+          <ui:Target.TimeoutMS>
+            <InArgument x:TypeArguments="x:Int32" />
+          </ui:Target.TimeoutMS>
+          <ui:Target.WaitForReady>
+            <InArgument x:TypeArguments="ui:WaitForReady" />
+          </ui:Target.WaitForReady>
+        </ui:Target>
+      </ui:GetValue.Target>
+      <ui:GetValue.Value>
+        <OutArgument x:TypeArguments="x:String">[out_movieDuration]</OutArgument>
+      </ui:GetValue.Value>
+    </ui:GetValue>
+  </Sequence>
+</Activity>
