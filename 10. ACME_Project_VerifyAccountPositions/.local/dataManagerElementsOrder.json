@@ -1,0 +1,301 @@
+{
+  "Workflows": [
+    {
+      "Path": null,
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [],
+      "ArgumentsSectionElementsOrder": null,
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "Main.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "boolACMELogin&Sequence_1",
+        "strUsername&Sequence_1",
+        "sstrPassword&Sequence_1",
+        "usersInfoDataTable&Sequence_1",
+        "filteredDataTable&Sequence_1",
+        "strAccountNumber&Sequence_1",
+        "strAccountAmount&Sequence_1",
+        "strClientID&Sequence_1"
+      ],
+      "ArgumentsSectionElementsOrder": [],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "APPX/APPX_Action.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "variable1&Sequence_4",
+        "Test&Sequence_4"
+      ],
+      "ArgumentsSectionElementsOrder": [],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "ACME_Sys1/ACME_Sys1_A_Launch.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "boolLoginExists&Sequence_4",
+        "str_ACMEMainTitle&Sequence_4",
+        "bool_ACMEIsOpen&Sequence_4"
+      ],
+      "ArgumentsSectionElementsOrder": [
+        "out_boolACMELogin"
+      ],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "ACME_Sys1/ACME_Sys1_Action.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [],
+      "ArgumentsSectionElementsOrder": [],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "ACME_Sys1/ACME_Sys1_B_Login.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "out_boolInvalidCreds&Sequence_2",
+        "str_dashboardTitle&Sequence_2",
+        "bool_dashboardExists&Sequence_2",
+        "boolLoginExists&Sequence_4",
+        "out_boolACMELogin&Sequence_2"
+      ],
+      "ArgumentsSectionElementsOrder": [
+        "in_sstrPassword",
+        "in_strUsername"
+      ],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "ACME_Sys3/ACME_Sys3_B_SetCreds.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "bool_dashboardPageExist&Sequence_4",
+        "boolLoginPageExist&Sequence_7",
+        "bool_welPageExist&Sequence_4"
+      ],
+      "ArgumentsSectionElementsOrder": [
+        "in_sstrPassword",
+        "in_strUsername"
+      ],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "ACME_Sys3/ACME_Sys3_A_OpenSystem.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "bool_sys3FileExist&Sequence_3",
+        "boolLoginPageExist&Sequence_5"
+      ],
+      "ArgumentsSectionElementsOrder": [],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "ACME_Sys1/ACME_Sys1_E_FilterDataTable.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "boolDashboardExists&Sequence_2",
+        "bool_workItems&Sequence_2",
+        "bool_dashboardExists&Sequence_3",
+        "bool_workItemsExists&Sequence_3"
+      ],
+      "ArgumentsSectionElementsOrder": [
+        "out_filteredDataTable",
+        "in_usersInfoDataTable"
+      ],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "ACME_Sys1/ACME_Sys1_D_DataExtraction.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "in_intTimeS&Sequence_1",
+        "boolDashboardExists&Sequence_4",
+        "bool_workItems&Sequence_4",
+        "bool_dashboardExists&Sequence_2",
+        "bool_workItemsExists&Sequence_2"
+      ],
+      "ArgumentsSectionElementsOrder": [
+        "out_ExtractDataTable"
+      ],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "ACME_Sys1/ACME_Sys1_F_GetClientDetails.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "strClientID&TryCatch_2",
+        "intAccountAmount&TryCatch_2",
+        "strAccountNumber&TryCatch_2",
+        "bool_clientInfoExist&Sequence_17",
+        "sumAmounts&Sequence_10",
+        "strClientInfo&TryCatch_2"
+      ],
+      "ArgumentsSectionElementsOrder": [
+        "in_filteredDataTable"
+      ],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "ACME_Sys1/ACME_Sys1_C_OpenWorkItems.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "boolDashboardExists&Sequence_4",
+        "bool_dashboardExists&Sequence_2",
+        "bool_workItemsExists&Sequence_2"
+      ],
+      "ArgumentsSectionElementsOrder": [],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "APPX/ACME_Sys1_Action.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [],
+      "ArgumentsSectionElementsOrder": [],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "ACME_Sys3/ACME_Sys3_C_SearchClient.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "buttonExists&Sequence_18",
+        "bool_dashboardExists&Sequence_15",
+        "bool_workItemsExists&Sequence_15",
+        "bool_clientsButtonExists&Sequence_12",
+        "bool_welPageExist&Sequence_12",
+        "bool_dashboardPageExist&Sequence_12"
+      ],
+      "ArgumentsSectionElementsOrder": [],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "APPX/ACME_Sys3_SelectSystem.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "bool_sys3FileExist&Sequence_2",
+        "boolLoginPageExist&Sequence_3"
+      ],
+      "ArgumentsSectionElementsOrder": [],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "APPX/ACME_Sys3_SearchByID.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "bool_welPageExist&Sequence_2",
+        "bool_dashboardPageExist&Sequence_2",
+        "bool_clientsButtonExists&Sequence_2",
+        "bool_dashboardExists&Sequence_3",
+        "bool_workItemsExists&Sequence_3"
+      ],
+      "ArgumentsSectionElementsOrder": [],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "ACME_Sys3/ACME_Sys3_D_SearchForm.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "bool_dashboardExists&Sequence_14",
+        "bool_workItemsExists&Sequence_14",
+        "bool_dashboardExists&Sequence_3",
+        "bool_workItemsExists&Sequence_3"
+      ],
+      "ArgumentsSectionElementsOrder": [
+        "in_clientID"
+      ],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "ACME_Sys3/ACME_Sys3_E_OpenClientAccounts.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "bool_welPageExist&Sequence_2",
+        "bool_dashboardPageExist&Sequence_2",
+        "bool_clientsButtonExists&Sequence_2",
+        "bool_dashboardExists&Sequence_3",
+        "bool_workItemsExists&Sequence_3"
+      ],
+      "ArgumentsSectionElementsOrder": [],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "ACME_Sys3/ACME_Sys3_F_OpenCurrentAccount.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "variable1&Sequence_3",
+        "bool_welPageExist&Sequence_2",
+        "bool_dashboardPageExist&Sequence_2",
+        "bool_clientsButtonExists&Sequence_2",
+        "bool_dashboardExists&Sequence_3",
+        "bool_workItemsExists&Sequence_3"
+      ],
+      "ArgumentsSectionElementsOrder": [
+        "in_accountNumber"
+      ],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "ACME_Sys3/ACME_Sys3_G_AccountMovements.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "userAccountAmounts&Sequence_18",
+        "bool_dashboardExists&Sequence_12",
+        "bool_workItemsExists&Sequence_12",
+        "variable1&Sequence_12"
+      ],
+      "ArgumentsSectionElementsOrder": [
+        "out_sumAmounts",
+        "in_accountNumber"
+      ],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "ACME_Sys1/ACME_Sys1_G_UpdateWorkItem.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "bool_dashboardExists&Sequence_3",
+        "bool_workItemsExists&Sequence_3"
+      ],
+      "ArgumentsSectionElementsOrder": [],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "ACME_Sys1/ACME_Sys1_H_ChangeStatus.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "bool_dashboardExists&Sequence_15",
+        "bool_workItemsExists&Sequence_15"
+      ],
+      "ArgumentsSectionElementsOrder": [
+        "in_accountAmount",
+        "in_sumAmounts"
+      ],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    }
+  ]
+}
