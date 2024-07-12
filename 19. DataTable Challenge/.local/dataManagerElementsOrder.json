@@ -1,0 +1,103 @@
+{
+  "Workflows": [
+    {
+      "Path": null,
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [],
+      "ArgumentsSectionElementsOrder": null,
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "Main.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [],
+      "ArgumentsSectionElementsOrder": [],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "Challenge/Read Data.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "boolPreCondition1&Sequence_5",
+        "boolPreCondition&Sequence_5",
+        "boolPreCondition&Sequence_6",
+        "boolPostCondition&Sequence_6",
+        "address&Sequence_2",
+        "role&Sequence_2",
+        "companyName&Sequence_2",
+        "lastName&Sequence_2",
+        "firstName&Sequence_2",
+        "phoneNumber&Sequence_2",
+        "email&Sequence_2",
+        "readExcelData&Sequence_1"
+      ],
+      "ArgumentsSectionElementsOrder": [],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "Challenge/Open RPAChallenge Website.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "boolPreCondition&Sequence_4",
+        "boolPostCondition&Sequence_4"
+      ],
+      "ArgumentsSectionElementsOrder": [],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "General/Templete.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "boolPreCondition&Sequence_3",
+        "boolPreCondition&Sequence_8",
+        "boolPostCondition&Sequence_8"
+      ],
+      "ArgumentsSectionElementsOrder": [],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "Challenge/Download Excel File.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "boolPreCondition&Sequence_2",
+        "boolPreCondition&Sequence_3",
+        "boolPostCondition&Sequence_3"
+      ],
+      "ArgumentsSectionElementsOrder": [],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "Challenge/Start Button.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "boolPreCondition&Sequence_9",
+        "buttonExist&Sequence_9",
+        "boolPreCondition&Sequence_2",
+        "boolPreCondition&Sequence_3",
+        "boolPostCondition&Sequence_3"
+      ],
+      "ArgumentsSectionElementsOrder": [],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "Challenge/Check Save As.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "boolConfirm&Sequence_6",
+        "boolPreCondition&Sequence_2",
+        "boolPreCondition&Sequence_3",
+        "boolPostCondition&Sequence_3"
+      ],
+      "ArgumentsSectionElementsOrder": [],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    }
+  ]
+}
